@@ -1,0 +1,11 @@
+
+body{
+	background: #FF008A ;
+}
+.center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 40%;
+}

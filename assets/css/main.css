@@ -1,0 +1,112 @@
+body{
+	background: #FF008A ;
+
+}
+
+img{
+    display: none
+}
+
+span:hover + img{
+    display: block;
+    position: absolute;
+    top: 40%;
+left:50%;
+width: 50%;
+}
+
+.lens {position: absolute;
+top: 50%;
+left:50%;}
+
+.center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.nav {
+  display:flex;
+  min-height: 200px;
+  justify-content: space-between;
+}
+
+.nav div {
+  /*background-color: bisque;*/
+}
+
+.button {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover { text-decoration: underline;}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+
+.container:hover .cover {
+  opacity: 0;
+}
+
+img{
+    display: none
+}
+
+
+span:hover + img{
+    display: block;
+}
+
+
+ .urlImg {
+      width: 185px;
+      height:185px;
+      display:block;
+      background-image: url('assets/img/disposablefront.png');
+    }
+    .center:hover {
+      background-image: url('assets/img/disposableback.png');
+    }
+
+.fa-user:hover {
+  color: #eee;
+/*.camera {color: black;
+position: absolute;
+top:0%;
+left:0%;}
+
+.film {color: black;
+position: absolute;
+top:0%;
+left:100%;}*/
+
+.lens {}
